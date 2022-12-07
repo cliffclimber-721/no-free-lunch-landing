@@ -8,6 +8,11 @@ import { useTranslation } from "next-i18next";
 import { Box, Typography, useMediaQuery } from "@mui/material";
 import { useTheme } from "@mui/material/styles";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
+import Governance from "../src/components/Governance";
+import Roadmap from "./roadmap";
+import Timeline from "../src/components/Timeline";
+import Vision from "../src/components/Vision";
+import Team from "../src/components/Team";
 
 const Index = () => {
   const { t } = useTranslation("common");
@@ -23,16 +28,14 @@ const Index = () => {
           <div className="bg_color" />
           {/* !Overlay Color */}
           {/* Overlay Image */}
-          <div className="bg_image" data-bg-img="img/hero/bg.jpg" />
+          <div className="bg_image" data-bg-img="img/hero/hero_bg.jpg" />
           {/* !Overlay Image */}
         </div>
         {/* Overlay (of hero header) */}
         <div className="hero_content">
           <div className="container">
             <div className="content">
-              <h2 className="fn_title" title="Neoh">
-                Neoh
-              </h2>
+              <h2 className="fn_title">No Free Lunch</h2>
               <p className="fn_desc fn_animated_text">{t("hero_main")}</p>
             </div>
           </div>
@@ -47,19 +50,16 @@ const Index = () => {
           </a>
         </div>
       </div>
-      {/* !Hero Header */}
-      {/* About Section */}
       <AboutComponent />
-      {/* !About Section */}
-      {/* Services Section */}
+      <Governance />
+      {/* <Drops /> */}
+      {/* <WhyChooseUsComponent /> */}
+      <Vision />
       <ServicesComponent />
-      {/* !Services Section */}
-      <Drops />
-      {/* Investor Section */}
-      <WhyChooseUsComponent />
+      <Team />
       {/* !Investor Section */}
       {/* Blog Section */}
-      <BlogComponent />
+      {/* <BlogComponent /> */}
     </Layout>
   );
 };

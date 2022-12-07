@@ -1,4 +1,9 @@
+import { Box } from "@mui/material";
+import { newLineStr } from "../../utils/newLineStr";
+import { useTranslation } from "next-i18next";
+
 const ServicesComponent = () => {
+  const { t } = useTranslation("common");
   return (
     <section id="services">
       {/* Dividers */}
@@ -16,7 +21,7 @@ const ServicesComponent = () => {
       <div className="container">
         {/* Main Title */}
         <div className="neoh_fn_title">
-          <h3 className="fn_title">Why Choose Us?</h3>
+          <h3 className="fn_title">Governance of No Free Launch</h3>
           <div className="line">
             <span />
           </div>
@@ -66,21 +71,6 @@ const ServicesComponent = () => {
                     Tasty design resources made with care for each pixel.
                     Tokens, NFTs, metaverse and game resources. Access
                     additional drops.
-                  </p>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div className="item">
-                <div className="item_num">
-                  <span>04</span>
-                </div>
-                <div className="item_content">
-                  <h3 className="fn_title">Big Community</h3>
-                  <p className="fn_desc fn_animated_text">
-                    Be part of a community of neoh owners and create user
-                    generated items. Rent, advertise, lounch stores, create
-                    items.
                   </p>
                 </div>
               </div>

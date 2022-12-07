@@ -1,4 +1,5 @@
-# How to start
+# No Free lunch
 
-## 1. npm install
-## 2. npm run dev
+### How to start
+1. npm install
+2. npm run dev

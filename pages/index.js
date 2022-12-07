@@ -4,8 +4,15 @@ import Drops from "../src/components/Drops";
 import ServicesComponent from "../src/components/ServicesComponent";
 import WhyChooseUsComponent from "../src/components/WhyChooseUsComponent";
 import Layout from "../src/layout/Layout";
+import { useTranslation } from "next-i18next";
+import { Box, Typography, useMediaQuery } from "@mui/material";
+import { useTheme } from "@mui/material/styles";
+import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 
 const Index = () => {
+  const { t } = useTranslation("common");
+  const theme = useTheme();
+  const matches = useMediaQuery(theme.breakpoints.down("sm"));
   return (
     <Layout pageName={"Home Static"}>
       {/* Hero Header */}
@@ -26,10 +33,7 @@ const Index = () => {
               <h2 className="fn_title" title="Neoh">
                 Neoh
               </h2>
-              <p className="fn_desc fn_animated_text">
-                The collection built by and runby codeefly. Together we are
-                strong than ever.
-              </p>
+              <p className="fn_desc fn_animated_text">{t("hero_main")}</p>
             </div>
           </div>
           <a
@@ -59,4 +63,11 @@ const Index = () => {
     </Layout>
   );
 };
+
+export const getStaticProps = async ({ locale }) => ({
+  props: {
+    ...(await serverSideTranslations(locale, ["common"])),
+  },
+});
+
 export default Index;

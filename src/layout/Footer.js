@@ -4,7 +4,7 @@ const Footer = () => {
     <footer id="footer">
       <div className="neoh_fn_footer">
         {/* Footer Top */}
-        <div className="footer_top">
+        {/* <div className="footer_top">
           <div className="container">
             <div className="ft_in">
               <div className="desc">
@@ -66,7 +66,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         {/* !Footer Top */}
         {/* Footer Bottom */}
         <div className="footer_bottom">
@@ -75,17 +75,10 @@ const Footer = () => {
               <div className="fb_left">
                 <p>
                   Copyright {new Date().getFullYear()} - Designed &amp;
-                  Developed by{" "}
-                  <a
-                    href="https://themeforest.net/user/codeefly/portfolio"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Codeefly
-                  </a>
+                  Developed by NFL
                 </p>
               </div>
-              <div className="fb_right">
+              {/* <div className="fb_right">
                 <ul>
                   <li>
                     <Link href="/roadmap">RoadMap</Link>
@@ -97,7 +90,7 @@ const Footer = () => {
                     <a href="#">Terms &amp; Conditions</a>
                   </li>
                 </ul>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

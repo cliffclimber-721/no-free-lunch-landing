@@ -24,18 +24,50 @@
   "our_gov": [
     {
       "index": "1",
-      "title": "",
+      "title": "Step1",
       "des": "노프런의 거버넌스는 프로젝트의 시작부터 진행됩니다. 창립자가 추진하는 프로젝트가 아닌 구성원들이 직접 프로젝트를 제안하고 이를 투표를 통해 선정합니다. "
     },
     {
       "index": "2",
-      "title": "",
+      "title": "Step2",
       "des": "노프런의 프로젝트는 채택 이후에도 구성원들 이외에는 누구도 관여할 수 없는 오롯이 구성원들에 의한 프로젝트가 될 것 입니다. "
     },
     {
       "index": "3",
-      "title": "",
+      "title": "Step3",
       "des": "구성원들이 만들어 나가는 프로젝트이기에 구성원들이 기여하는 만큼 프로젝트의 미래가 결정됩니다. "
+    }
+  ],
+  "team": [
+    {
+      "image": "img/team/team_1.png",
+      "name": "제언",
+      "role": "PM",
+      "des": "인일능지 기백지 인십능지 기천지"
+    },
+    {
+      "image": "img/team/team_2.png",
+      "name": "Woody",
+      "role": "PM",
+      "des": "취향껏 살아갑시다. 내가 살아가고 사랑할 삶이니까요!"
+    },
+    {
+      "image": "img/team/team_3.png",
+      "name": "레모네이드한잔",
+      "role": "PM",
+      "des": "게임 하는 것처럼 살자"
+    },
+    {
+      "image": "img/team/team_4.png",
+      "name": "Zoe",
+      "role": "Developer",
+      "des": ""
+    },
+    {
+      "image": "img/team/team_4.png",
+      "name": "Sally",
+      "role": "Developer",
+      "des": ""
     }
   ]
 }

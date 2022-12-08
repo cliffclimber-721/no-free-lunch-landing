@@ -850,6 +850,17 @@ a.full_link {
   transform: rotate(180deg);
 }
 
+#video .bottom_divider {
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: auto;
+  display: block;
+  z-index: 6;
+  color: #0a0a0a;
+}
+
 /* Services Section */
 #services {
   padding: 150px 0 116px;
@@ -2619,7 +2630,7 @@ a.full_link {
 .neoh_fn_team .fn_title {
   margin: 0;
   padding: 0;
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 500;
   margin-bottom: 8px;
 }

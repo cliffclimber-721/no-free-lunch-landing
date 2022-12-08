@@ -25,7 +25,7 @@ const Header = () => {
         <div className="nav_content">
           <div className="nav_menu">
             <ul>
-              <li className="menu-item menu-item-has-children">
+              {/* <li className="menu-item menu-item-has-children">
                 <a
                   href="#"
                   onClick={(e) => {
@@ -52,8 +52,11 @@ const Header = () => {
                     <Link href="/half-slider">Half Slider</Link>
                   </li>
                 </ul>
-              </li>
+              </li> */}
               <li className="menu-item">
+                <Link href="/">Home</Link>
+              </li>
+              {/* <li className="menu-item">
                 <Link href="/about">About</Link>
               </li>
               <li className="menu-item">
@@ -64,10 +67,10 @@ const Header = () => {
               </li>
               <li className="menu-item">
                 <Link href="/contact">Contact</Link>
-              </li>
+              </li> */}
             </ul>
           </div>
-          <div className="nav_buttons">
+          {/* <div className="nav_buttons">
             <a
               href="https://opensea.io/"
               className="neoh_fn_button"
@@ -88,22 +91,14 @@ const Header = () => {
               </span>
               <span className="text">Discord</span>
             </a>
-          </div>
+          </div> */}
         </div>
         {/* Nav Footer */}
         <div className={`nav_footer ${toggle ? "ready" : ""}`}>
           <div className="nf_left">
-            <p>
-              Copyright 2022- Designed &amp; Developed by{" "}
-              <a
-                href="https://themeforest.net/user/codeefly/portfolio"
-                target="_blank"
-              >
-                Codeefly
-              </a>
-            </p>
+            <p>Copyright 2022- Designed &amp; Developed by NFL</p>
           </div>
-          <div className="nf_right">
+          {/* <div className="nf_right">
             <div className="neoh_fn_social_list">
               <ul>
                 <li>
@@ -133,7 +128,7 @@ const Header = () => {
                 </li>
               </ul>
             </div>
-          </div>
+          </div> */}
         </div>
         {/* !Nav Footer */}
       </div>

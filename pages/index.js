@@ -5,7 +5,7 @@ import ServicesComponent from "../src/components/ServicesComponent";
 import WhyChooseUsComponent from "../src/components/WhyChooseUsComponent";
 import Layout from "../src/layout/Layout";
 import { useTranslation } from "next-i18next";
-import { Box, Typography, useMediaQuery } from "@mui/material";
+import { Box, Button, Typography, useMediaQuery } from "@mui/material";
 import { useTheme } from "@mui/material/styles";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import Governance from "../src/components/Governance";
@@ -60,10 +60,41 @@ const Index = () => {
       <Team />
       {/* !Investor Section */}
       {/* Blog Section */}
+      <Box
+        onClick={() => {
+          window.open(applyURL);
+        }}
+        sx={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
+      >
+        <Button
+          variant="contained"
+          sx={{
+            borderRadius: 5,
+            bottom: 30,
+            zIndex: 990,
+            position: "fixed",
+            color: "#fff",
+            bgcolor: "#3c27b9",
+            "&:hover": {
+              color: "#7864f9",
+              bgcolor: "#fff",
+            },
+          }}
+        >
+          <Box>
+            <img src="img/applyBtn/right.png" alt="towner" width={40} />
+          </Box>
+          <Typography m={1}>Apply for NFL</Typography>
+          <Box>
+            <img src="img/applyBtn/left.png" alt="towner" width={40} />
+          </Box>
+        </Button>
+      </Box>
       {/* <BlogComponent /> */}
-      <div>
-        <button type="applyBtn" id="applyCom" onClick={() => {window.open(applyURL)}}>Apply for NFL❗️</button>
-      </div>
     </Layout>
   );
 };

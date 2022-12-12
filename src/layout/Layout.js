@@ -34,7 +34,6 @@ const Layout = ({ children, pageName }) => {
         <Footer />
         <ScrollTop />
       </div>
-
       <div className="neoh_fn_moving_box"></div>
     </Fragment>
   );

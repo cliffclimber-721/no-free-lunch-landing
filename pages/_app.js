@@ -15,7 +15,7 @@ function MyApp({ Component, pageProps }) {
         <meta name="title" content="NoFreeLunch Community" />
         <meta
           name="description"
-          content="No Frree Lunch는 DAO를 생태계를 구성할 사람을 찾고있습니다."
+          content="No Free Lunch는 DAO를 생태계를 구성할 사람을 찾고있습니다."
         />
         <meta property="image" content="" />
 
@@ -24,7 +24,7 @@ function MyApp({ Component, pageProps }) {
         <meta property="og:title" content="No Free Lunch" />
         <meta
           property="og:description"
-          content="No Frree Lunch는 DAO를 생태계를 구성할 사람을 찾고있습니다."
+          content="No Free Lunch는 DAO를 생태계를 구성할 사람을 찾고있습니다."
         />
         <meta property="og:image" content="" />
         <meta property="og:url" content="https://nfttown.io/landing" />

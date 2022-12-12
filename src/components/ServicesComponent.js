@@ -17,7 +17,7 @@ const ServicesComponent = () => {
       <div className="container">
         {/* Main Title */}
         <div className="neoh_fn_title">
-          <h3 className="fn_title">No Free Launch Process</h3>
+          <h3 className="fn_title">No Free Lunch Process</h3>
           <div className="line">
             <span />
           </div>

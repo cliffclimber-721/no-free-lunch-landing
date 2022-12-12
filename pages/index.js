@@ -18,6 +18,7 @@ const Index = () => {
   const { t } = useTranslation("common");
   const theme = useTheme();
   const matches = useMediaQuery(theme.breakpoints.down("sm"));
+  const applyURL = "https://tally.so/r/mYjMbB";
   return (
     <Layout pageName={"Home Static"}>
       {/* Hero Header */}
@@ -60,6 +61,9 @@ const Index = () => {
       {/* !Investor Section */}
       {/* Blog Section */}
       {/* <BlogComponent /> */}
+      <div>
+        <button type="applyBtn" id="applyCom" onClick={() => {window.open(applyURL)}}>Apply for NFL❗️</button>
+      </div>
     </Layout>
   );
 };

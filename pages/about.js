@@ -1,7 +1,6 @@
 import Layout from "../src/layout/Layout";
 import PageBanner from "../src/layout/PageBanner";
 
-const applyURL = "https://tally.so/r/mYjMbB";
 const About = () => {
   return (
     <Layout pageName={"About"}>
@@ -445,7 +444,6 @@ const About = () => {
                   </div>
                 </li>
               </ul>
-              <button type="button" onClick={() => {window.open(applyURL)}}>Apply for NFL❗️</button>
             </div>
             {/* !Team List Shortcode */}
           </div>

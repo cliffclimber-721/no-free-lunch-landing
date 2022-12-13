@@ -27,7 +27,7 @@ function MyApp({ Component, pageProps }) {
           content="No Free Lunch는 DAO를 생태계를 구성할 사람을 찾고있습니다."
         />
         <meta property="og:image" content="" />
-        <meta property="og:url" content="https://nfttown.io/landing" />
+        <meta property="og:url" content="" />
         <meta property="og:site_name" content="No Free Lunch" />
         {/* <!-- Google Fonts --> */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />

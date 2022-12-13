@@ -11,7 +11,10 @@ const nextConfig = {
   reactStrictMode: true,
   assetPrefix: !debug ? `/${repo}/` : "",
   eslint: { ignoreDuringBuilds: true },
-  i18n,
+  i18n: {
+    locales: ["en", "ko"],
+    defaultLocale: "ko",
+  },
   images: {
     domains: ["storage.googleapis.com"],
   },
